@@ -46,4 +46,8 @@
       color:hsl(128, 86%, 42%);
     }
 
-    
+    #carouselExampleSlidesOnly{
+        margin-top: -16px;
+        margin-right: 350px;
+        margin-left: 350px;
+    }
