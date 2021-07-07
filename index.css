@@ -3,6 +3,7 @@
 
     #barrauno{
         color: green;
+        margin-right: 0px;
     }
 
     .textouno{
@@ -20,7 +21,7 @@
         position: relative;
         top: 0px;
         bottom: 0px;
-        left:1200px;
+        left:1000px;
     }
     
     .general{
