@@ -1,0 +1,38 @@
+* { margin: 0; 
+    padding: 0; } 
+
+    #header {
+      background-color: #ffffff; 
+      margin-right: 0px;
+      margin-left:-50px;
+      margin-top: 50px;
+    }
+     
+    #header-img {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left:1200px;
+    }
+    
+    .general{
+        position: relative;
+        bottom: 45px;
+        left: 70px;
+        
+    }
+
+    .general2 li{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        display: inline;
+        margin:15px;
+    }
+
+    .general2:hover {
+      color: hsl(128, 86%, 42%);
+    }
+
+    .inicio,  .nosotros, .proyectos, .blog, .contacto
+    {
+      color:hsl(128, 86%, 42%);
+    }
