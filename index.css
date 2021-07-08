@@ -1,20 +1,16 @@
 * { margin: 0; 
     padding: 0; } 
 
-    #barrauno{
-        color: green;
-        margin-right: 0px;
-    }
 
-    .textouno{
-        background-color: green;
-    }
 
     #header {
-      background-color: #ffffff; 
+      background-image: url('https://www.teahub.io/photos/full/269-2695264_fondo-madera-morado.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
       margin-right: 0px;
       margin-left:0px;
-      margin-top: 65px;
+      margin-top: 0px;
+      height: 100px;
     }
      
     #header-img {
@@ -26,7 +22,7 @@
     
     .general{
         position: relative;
-        bottom: 45px;
+        top: 10px;
         left: 0px;
         
     }    
@@ -35,19 +31,16 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         display: inline;
         margin:15px;
-    }
-
-    .general2:hover {
-      color: hsl(128, 86%, 42%);
+        margin-top: 100px;
     }
 
     .inicio,  .nosotros, .proyectos, .blog, .contacto
     {
-      color:hsl(128, 86%, 42%);
+      color:hsl(0, 0%, 100%);
     }
 
     #carouselExampleControls{
-        margin-top: -16px;
+        margin-top: 0px;
         margin-right: 350px;
         margin-left: 350px;
     }
