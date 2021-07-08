@@ -39,6 +39,12 @@
       color:hsl(0, 0%, 100%);
     }
 
+    #fondoOpaco{
+        background-image: url('https://wallpapercave.com/wp/wp2662873.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     #carouselExampleControls{
         margin-top: 0px;
         margin-right: 350px;
