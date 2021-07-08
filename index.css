@@ -10,7 +10,7 @@
       margin-right: 0px;
       margin-left:0px;
       margin-top: 0px;
-      height: 150px;
+      height: 190px;
     }
      
     #header-img {
@@ -23,7 +23,7 @@
     
     .general{
         position: relative;
-        top: -50px;
+        top: -70px;
         left: 0px;
         
     }    
@@ -53,8 +53,17 @@
     }
 
     #portafolio{
-        background-image: url('https://p4.wallpaperbetter.com/wallpaper/276/519/587/texture-wood-background-4k-wallpaper-preview.jpg');
+        background-image: url('https://i.pinimg.com/236x/64/b8/05/64b805115bcea1f055ffef4cd64ce46b.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 500px;
+        height: 300px;
+    }
+
+    #portafolio-img{
+        margin-top: 35px;
+        border-radius: 0%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    
     }
