@@ -10,12 +10,12 @@
       margin-right: 0px;
       margin-left:0px;
       margin-top: 0px;
-      height: 130px;
+      height: 150px;
     }
      
     #header-img {
         position: relative;
-        top: 11px;
+        top: 19px;
         bottom: 0px;
         left:1100px;
         border-radius: 50%;
@@ -23,7 +23,7 @@
     
     .general{
         position: relative;
-        top: -60px;
+        top: -50px;
         left: 0px;
         
     }    
@@ -50,4 +50,11 @@
         margin-top: 0px;
         margin-right: 350px;
         margin-left: 350px;
+    }
+
+    #portafolio{
+        background-image: url('https://p4.wallpaperbetter.com/wallpaper/276/519/587/texture-wood-background-4k-wallpaper-preview.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
     }
