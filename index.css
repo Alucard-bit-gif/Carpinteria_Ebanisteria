@@ -45,14 +45,6 @@
       font-weight: bolder;
     }
 
-    #carouselExampleControls{
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-
-
 
 
     #fondoOpaco{
@@ -63,8 +55,8 @@
 
     #carouselExampleControls{
         margin-top: 0px;
-        margin-right: 350px;
-        margin-left: 350px;
+        margin-right: 300px;
+        margin-left: 300px;
     }
 
     #portafolio{
