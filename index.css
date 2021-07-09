@@ -19,7 +19,29 @@
         left:1100px;
         border-radius: 50%;
     }
+
+    @media screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        
+        #header-img{
+            position: relative;
+            top:auto;
+            bottom: auto;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .general{
+            position: relative;
+            top: 70px;
+            left: 0px;
+            
+        } 
+    }
     
+
     .general{
         position: relative;
         top: -70px;
