@@ -28,20 +28,9 @@
         
     }    
 
-    @media screen and (max-width:500px) {
 
-        body{
-            background-color: lightblue;
-        }        
-    }
-
-    @media screen and (min-width:500px) {
-
-        body{
-            background-color: lightcoral;
-        }
         
-    }
+    
 
     .general2 li{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
