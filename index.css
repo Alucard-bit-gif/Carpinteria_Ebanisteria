@@ -20,27 +20,6 @@
         border-radius: 50%;
     }
 
-    @media screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px) {
-        
-        #header-img{
-            position: relative;
-            top:auto;
-            bottom: auto;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .general{
-            position: relative;
-            top: 70px;
-            left: 0px;
-            
-        } 
-    }
-    
 
     .general{
         position: relative;
@@ -48,6 +27,21 @@
         left: 0px;
         
     }    
+
+    @media screen and (max-width:500px) {
+
+        body{
+            background-color: lightblue;
+        }        
+    }
+
+    @media screen and (min-width:500px) {
+
+        body{
+            background-color: lightcoral;
+        }
+        
+    }
 
     .general2 li{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
