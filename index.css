@@ -38,6 +38,7 @@
     .inicio,  .nosotros, .proyectos, .blog, .contacto
     {
       color:hsl(0, 0%, 100%);
+      font-weight: bolder;
     }
 
     #fondoOpaco{
