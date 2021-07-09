@@ -1,7 +1,7 @@
 * { margin: 0; 
     padding: 0; } 
 
-  
+    
     #header {
       background-image: url('https://www.teahub.io/photos/full/269-2695264_fondo-madera-morado.jpg');
       background-repeat: no-repeat;
@@ -46,7 +46,6 @@
     }
 
 
-
     #fondoOpaco{
         background-image: url('https://wallpapercave.com/wp/wp2662873.jpg');
         background-repeat: no-repeat;
@@ -55,8 +54,8 @@
 
     #carouselExampleControls{
         margin-top: 0px;
-        margin-right: 300px;
-        margin-left: 300px;
+        margin-right: 350px;
+        margin-left: 350px;
     }
 
     #portafolio{
