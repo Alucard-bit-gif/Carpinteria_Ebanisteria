@@ -1,6 +1,8 @@
 * { margin: 0; 
     padding: 0; } 
 
+@media screen and (max-width:500px){
+    
 
 
     #header {
@@ -40,7 +42,7 @@
       color:hsl(0, 0%, 100%);
       font-weight: bolder;
     }
-
+}
     #fondoOpaco{
         background-image: url('https://wallpapercave.com/wp/wp2662873.jpg');
         background-repeat: no-repeat;
