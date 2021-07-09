@@ -1,7 +1,11 @@
 * { margin: 0; 
     padding: 0; } 
 
-    
+    body{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
     #header {
       background-image: url('https://www.teahub.io/photos/full/269-2695264_fondo-madera-morado.jpg');
       background-repeat: no-repeat;
@@ -54,8 +58,8 @@
 
     #carouselExampleControls{
         margin-top: 0px;
-        margin-right: 250px;
-        margin-left: 250px;
+        margin-right: 350px;
+        margin-left: 350px;
     }
 
     #portafolio{
