@@ -6,7 +6,17 @@
         margin-left: 0px;
     }
 
-    #header {
+    #logoInicio{
+        border-radius: 50%;
+        
+    }
+
+    .container-fluid{
+        margin-top: -100px;
+        margin-left:210px;
+    }
+
+    /*#header {
       background-image: url('https://www.teahub.io/photos/full/269-2695264_fondo-madera-morado.jpg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -14,36 +24,33 @@
       margin-left:0px;
       margin-top: 0px;
       height: 190px;
-    }
+    }*/
      
-    #header-img {
+    /*#header-img {
         position: relative;
         top: 19px;
         bottom: 0px;
         left:1100px;
         border-radius: 50%;
-    }
+    }*/
 
 
-    .general{
+    /*.general{
         position: relative;
         top: -70px;
         left: 0px;
         
-    }    
+    }*/   
 
 
-        
-    
-
-    .general2 li{
+    /*.general2 li{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         display: inline;
         margin:15px;
         margin-top: 0px;
-    }
+    }*/
 
-    .inicio,  .nosotros, .proyectos, .blog, .contacto
+   /* .inicio,  .nosotros, .proyectos, .blog, .contacto
     {
       color:hsl(0, 0%, 100%);
       font-weight: bolder;
@@ -54,12 +61,12 @@
         background-image: url('https://wallpapercave.com/wp/wp2662873.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    }*/
 
     #carouselExampleControls{
         margin-top: 0px;
-        margin-right: 350px;
-        margin-left: 350px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     #portafolio{
