@@ -127,5 +127,12 @@
         .container-fluid{
             margin-top: -100px;
             margin-left:190px;
+            margin-bottom: -30px;
         }
+
+        .container-fluid{
+            
+            margin-bottom: -25px;
+        }
+
     }
