@@ -111,14 +111,17 @@
         }
 
         .navbar{
-            background-image: url('Fondos/fondo-madera-morado.jpg');
+            background-image: url('Fondos/9962-azul-liso.jpg');
             background-repeat: no-repeat;
             background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
             
         }
 
         .cabezote{
-            color:#ffffff
+            color:#ffffff;
+            font-weight:unset;   
         }
 
         p{
