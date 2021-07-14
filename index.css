@@ -96,13 +96,18 @@
         margin-right: 5px;
     }
 
+    .text-center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     @media (min-width:801px){
         .container-fluid{
             margin-top: -100px;
             margin-left:450px;
             margin-right: 200px;
             font-weight:bold;
-            
         }
 
         .navbar{
@@ -112,8 +117,12 @@
             
         }
 
+        .cabezote{
+            color:#ffffff
+        }
+
         p{
-            color: rgb(253, 253, 253);
+            color: rgb(0, 0, 0);
         }
 
         #carouselExampleControls{
