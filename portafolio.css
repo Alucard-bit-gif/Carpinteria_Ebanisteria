@@ -1,0 +1,17 @@
+* { margin: 0; 
+    padding: 0; } 
+
+    body{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #logoInicio{
+        border-radius: 50%;
+        
+    }
+
+    .container-fluid{
+        margin-top: -100px;
+        margin-left:210px;
+    }
