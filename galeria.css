@@ -25,6 +25,12 @@
         color:#D4AF37;
     }
 
+    h3{
+        color:#D4AF37;
+        font-weight: bold;
+        margin-top: 5px;
+    } 
+
     #logoredes{
         border-radius: 50%;
         margin-right: 5px;
@@ -66,15 +72,23 @@
             color:#D4AF37;
             font-weight:unset;   
         }
-
+        
         p{
             color: rgb(0, 0, 0);
         }
 
         .card {
         margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 12px;
+        margin-right: 12px;
+        }
+
+        #paginasGaleria{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         footer{
