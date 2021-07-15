@@ -16,6 +16,12 @@
         margin-left:210px;
     }
 
+    .cabezote{
+        font-weight: unset;
+        color:#241178;
+    }
+
+
     /*#header {
       background-image: url('https://www.teahub.io/photos/full/269-2695264_fondo-madera-morado.jpg');
       background-repeat: no-repeat;
