@@ -21,9 +21,7 @@
         margin-right: 5px;
     }
 
-    /*.card {
-        margin-top: 50px;
-    }*/
+    
 
     @media (max-width:320px){
         .container-fluid{
@@ -57,6 +55,17 @@
 
         p{
             color: rgb(0, 0, 0);
+        }
+
+        .card {
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        footer{
+            margin-top: 50px;
         }
 
     }
