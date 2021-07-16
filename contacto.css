@@ -1,0 +1,91 @@
+* { margin: 0; 
+    padding: 0; } 
+
+    body{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #logoInicio{
+        border-radius: 50%;
+        
+    }
+
+    .container-fluid{
+        margin-top: -100px;
+        margin-left:210px;
+    }
+
+    .cabezote{
+        font-weight: unset;
+        color:#241178;
+    }
+
+    .cabezoteTres{
+        color:#D4AF37;
+    }
+
+    h3, h4{
+        color:#D4AF37;
+        font-weight: bold;
+        margin-top: 5px;
+    } 
+
+
+    #logoredes{
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    
+
+    @media (max-width:320px){
+        .container-fluid{
+            margin-top: -100px;
+            margin-left:190px;
+            margin-bottom: -20px;
+        }
+    }
+
+    @media (min-width:801px){
+        .container-fluid{
+            margin-top: -100px;
+            margin-left:450px;
+            margin-right: 200px;
+            font-weight:bold;
+        }
+
+        .navbar{
+            background-image: url('Fondos/9962-azul-liso.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
+
+        .cabezote{
+            color:#ffffff;
+            font-weight:unset;   
+        }
+
+        
+        p{
+            color: rgb(0, 0, 0);
+        }
+
+        .card {
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        }
+
+
+        footer{
+            margin-top: 25px;
+        }
+
+    }
+
