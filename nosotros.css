@@ -69,19 +69,17 @@
             font-weight:unset;   
         }
 
-        .cabezoteDos{
-            color:#D4AF37;
-            font-weight:unset;   
-        }
         
         p{
             color: rgb(0, 0, 0);
         }
 
         .card {
-        margin-top: 10px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
         }
 
 
