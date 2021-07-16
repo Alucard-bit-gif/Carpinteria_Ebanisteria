@@ -31,6 +31,19 @@
         margin-top: 5px;
     } 
 
+    .card-img-top{
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
 
     #logoredes{
         border-radius: 50%;
