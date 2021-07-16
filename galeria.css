@@ -31,6 +31,18 @@
         margin-top: 5px;
     } 
 
+    #paginasGaleria{
+        margin-top: 20px;
+        display: flex;
+      	justify-content: center;
+        margin-bottom: 5px;  
+    }
+
+    .btn{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
     #logoredes{
         border-radius: 50%;
         margin-right: 5px;
@@ -83,16 +95,9 @@
         margin-right: 12px;
         }
 
-        #paginasGaleria{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
 
         footer{
-            margin-top: 50px;
+            margin-top: 25px;
         }
 
     }
