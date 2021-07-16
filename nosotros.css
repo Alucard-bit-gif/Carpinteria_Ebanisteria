@@ -1,126 +1,104 @@
-<!doctype html>
-<html lang="en">
+* { margin: 0; 
+    padding: 0; } 
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    body{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    #logoInicio{
+        border-radius: 50%;
+        
+    }
 
-    <link rel="stylesheet" media="screen" href="galeria.css">
-    <title>Hermanos Martinez</title>
-</head>
+    .container-fluid{
+        margin-top: -100px;
+        margin-left:210px;
+    }
 
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-            <!-- <a class="navbar-brand" href="#">-->
-            <img id="logoInicio" src="Fondos/Logotipo.png" alt="" width="110" height="110">
-            <!-- </a>-->
-        </div>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <p class="cabezote">Portafolio</p>
-            </a>
-            <a class="navbar-brand" href="#">
-                <p class="cabezoteDos">Galería</p>
-            </a>
-            <a class="navbar-brand" href="#">
-                <p class="cabezote">Nosotros</p>
-            </a>
-            <a class="navbar-brand" href="#">
-                <p class="cabezote">Contacto</p>
-            </a>
-        </div>
-    </nav>
+    .cabezote{
+        font-weight: unset;
+        color:#241178;
+    }
 
-    <div class="text-center p-3" style="background-color: rgba(253, 253, 253, 0.6);">
-        <h3>LÍNEA VERDE</h3>
-    </div>
+    .cabezoteDos{
+        color:#D4AF37;
+    }
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/IMG-VERDE-WA0014.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/IMG-VERDE-WA0015.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/WA0011.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/IMG-20210618-WA0012.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/IMG-PDTO-0010.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Fotos_Portafolio/IMG-20210618-WA0014.jpg" class="card-img-top" alt="..." height="300">
-            </div>
-        </div>
+    h3{
+        color:#D4AF37;
+        font-weight: bold;
+        margin-top: 5px;
+    } 
 
-    </div>
-    <div id="paginasGaleria">
-        <a class="btn btn-dark" href="#" role="button">1</a>
-        <a class="btn btn-dark" href="#" role="button">2</a>
-        <a class="btn btn-dark" href="#" role="button">3</a>
-    </div>
+    #paginasGaleria{
+        margin-top: 20px;
+        display: flex;
+      	justify-content: center;
+        margin-bottom: 5px;  
+    }
 
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <img id="logoredes" src="Fondos/facebook_official_logo_icon.png" alt="facebook" width="40" height="40">
-            <img id="logoredes" src="Fondos/twitter_101809.png" alt="twitter" width="45" height="45">
-            <img id="logoredes" src="Fondos/instagram_logo.png" alt="instagram" width="40" height="40">
-        </div>
-        <br>
+    .btn{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    #logoredes{
+        border-radius: 50%;
+        margin-right: 5px;
+    }
 
-            Hermanos Martinez<br>
-            Carpintería/Ebanistería<br>
-            📱 Teléfono/Whatsapp: +57 300 6560820<br>
-            ✉️ e-mail: rmar6721@hotmail.com<br>
-            © 2021 Copyright.
+    
 
-        </div>
-        <div>
-            Elaborado con tecnología:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -
-            Diseño Web: <a class="text-white" href="https://co.linkedin.com/in/sebastian-vargas-294a04126">Sebastián
-                Vargas</a><br>
-        </div>
-    </footer>
+    @media (max-width:320px){
+        .container-fluid{
+            margin-top: -100px;
+            margin-left:190px;
+            margin-bottom: -20px;
+        }
+    }
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    @media (min-width:801px){
+        .container-fluid{
+            margin-top: -100px;
+            margin-left:450px;
+            margin-right: 200px;
+            font-weight:bold;
+        }
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        .navbar{
+            background-image: url('Fondos/9962-azul-liso.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-      -->
+        .cabezote{
+            color:#ffffff;
+            font-weight:unset;   
+        }
 
-</body>
+        .cabezoteDos{
+            color:#D4AF37;
+            font-weight:unset;   
+        }
+        
+        p{
+            color: rgb(0, 0, 0);
+        }
 
-</html>
+        .card {
+        margin-top: 10px;
+        margin-left: 12px;
+        margin-right: 12px;
+        }
+
+
+        footer{
+            margin-top: 25px;
+        }
+
+    }
+
