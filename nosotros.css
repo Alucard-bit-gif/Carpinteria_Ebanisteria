@@ -21,7 +21,7 @@
         color:#241178;
     }
 
-    .cabezoteDos{
+    .cabezoteTres{
         color:#D4AF37;
     }
 
@@ -31,17 +31,6 @@
         margin-top: 5px;
     } 
 
-    #paginasGaleria{
-        margin-top: 20px;
-        display: flex;
-      	justify-content: center;
-        margin-bottom: 5px;  
-    }
-
-    .btn{
-        margin-left: 3px;
-        margin-right: 3px;
-    }
 
     #logoredes{
         border-radius: 50%;
